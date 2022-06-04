@@ -19,7 +19,7 @@ No skills **yet**, except for a little experience of making web page using only 
 
 ## Experience
 
-[Wild life] (https://natalka-kar.github.io/Wildlife/)
+[Wild life] (https://natalka-kar.github.io/Wildlife)
 
 ## Code Example
 
