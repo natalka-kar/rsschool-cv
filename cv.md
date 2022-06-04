@@ -23,14 +23,15 @@ No skills **yet**, except for a little experience of making web page using only 
 
 ## Code Example
 
-```<div class="new-articles">
+```html
+<div class="new-articles">
     <h2>Get notified about new amazing articles</h2>
-        <div class="mail">
-            <form action="#">
-                <input class="email" type="email" placeholder="Email" />
-                <input class="send" type="submit" value="Send" />
-            </form>
-        </div>
+    <div class="mail">
+        <form action="#">
+            <input class="email" type="email"  placeholder="Email" />
+            <input class="send" type="submit" value="Send" />
+        </form>
+    </div>
 </div>
 ```
 
