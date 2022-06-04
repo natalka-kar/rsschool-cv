@@ -3,7 +3,7 @@
 ## Contacts
 
 - **Location:** Gomel, Belarus
-- **Discord:** [natalka-kar](https://discordapp.com/users/974703660816814190/)
+- **Discord:** [Natalka](https://discordapp.com/users/974703660816814190/)
 - **Email:** nataryades@gmail.com
 - **GitHub:** natalka-kar
 
