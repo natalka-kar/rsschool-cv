@@ -3,7 +3,7 @@
 ## Contacts
 
 - **Location:** Gomel, Belarus
-- **Phone:** +375 44 533-22-09
+- **Discord:** [natalka-kar](https://discordapp.com/users/974703660816814190/)
 - **Email:** nataryades@gmail.com
 - **GitHub:** natalka-kar
 
