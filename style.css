@@ -7,46 +7,44 @@ body {
 .container {
     display: flex;
     margin: 0 100px;
-    max-width: 1800px;
-    width: 80%;
+    max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
     font-family: Comfortaa, Roboto, sans-serif;
-    background-color: rgb(60, 46, 85);
+    background-color: #3c2e55;
+    align-items:stretch;
 }
 
 .my-life {
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
-    background-color: rgb(60, 46, 85);
-    height: 1500px;
     display: flex;
     padding: 70px 70px 0;
     flex-direction: column;
-    box-sizing: border-box;
-    justify-content: stretch;
+    box-sizing: border-box;    
 }
 
 .main-block {
-    max-width: 1200px;
+    max-width: 800px;
     width: 100%;
-    background-color: rgb(134, 125, 150);
-    padding: 250px 100px 0 100px;
+    background-color: #867d96;
+    padding: 150px 100px 0 100px;
 }
 
-.introduce {
-    margin-bottom: 200px;
+.introduce, .about-me {
+    margin-bottom: 100px;
 }
 
 .education {
-    color: aliceblue;
-    font-size: 30px;
-    margin-bottom: 150px;
+    color: #f0f8ff;
+    font-size: 20px;
+    margin-bottom: 100px;
 }
 
 .job-story {
-    color: aliceblue;
-    font-size: 30px;
-    margin-bottom: 150px;
+    color: #f0f8ff;
+    font-size: 20px;
+    margin-bottom: 100px;
 }
 
 .job-story td {
@@ -54,11 +52,11 @@ body {
 }
 
 .example-of-code {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .avatar {
-    max-width: 300px;
+    max-width: 200px;
     width: 100%;
     border-radius: 10px;
     margin-bottom: 40px;
@@ -66,59 +64,65 @@ body {
 
 h1 {
     text-transform: uppercase;
-    color: aliceblue;
+    color: #f0f8ff;
     font-size: 50px;
 }
 
 h2 {
     text-transform: uppercase;
-    color: aliceblue;
-    font-size: 35px;
+    color: #f0f8ff;
+    font-size: 30px;
 }
 
 p {
-    color: aliceblue;
-    font-size: 30px;
+    color: #f0f8ff;
+    font-size: 20px;
 }
 
 .contacts ul {
-    color:aliceblue;
-    font-size: 30px;
+    color:#f0f8ff;
+    font-size: 20px;
     margin-bottom: 90px;
+    padding: 0;
+}
+
+.contacts ul li {
+    padding: 10px 0;
+    list-style: none;
 }
 
 a {
-    color:aliceblue;
+    color:#f0f8ff;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
+    transition: 0.3s;
 }
 a:hover {
-    color:rgb(174, 180, 185);
+    color:#aeb4b9;
 }
 
 .skills {
-    color:aliceblue;
+    color:#f0f8ff;
     font-size: 30px;
 }
 code {
-    color:aliceblue;
-    font-size: 30px;
+    color:#f0f8ff;
+    font-size: 20px;
     margin: 0;
 }
 
 .code {
     max-width: 600px;
     width: 100%;
-    background-color:cadetblue;
-
+    background-color:#afa9b9;
 }
 
 .projects {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .english {
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 
 .footer ul {
@@ -127,17 +131,19 @@ code {
     max-width: 1000px;
     width: 100%;
     margin: 0 0 70px;
-    padding: 0;
+    padding: 10px 0;
+    align-items: center;
 }
 
 .footer li {
     list-style: none;
     color:aliceblue;
-    font-size: 30px;
+    font-size: 20px;
+
 }
 
 .footer-logo a {
-    background-image: url(rs_school_js.svg);
+    background-image: url(assets/icons/rs_school_js.svg);
     background-repeat: no-repeat;
     width: 130px;
     height: 48px;
@@ -145,6 +151,5 @@ code {
 }
 
 .footer-logo a:hover {
-    transition: 0.9s;
     transform: scale(1.1)
 }
