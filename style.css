@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap');
 
+body {
+    margin: 0;
+}
+
 .container {
     display: flex;
     margin: 0 100px;
     max-width: 1800px;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     font-family: Comfortaa, Roboto, sans-serif;
     background-color: rgb(60, 46, 85);
@@ -136,11 +140,11 @@ code {
     background-image: url(rs_school_js.svg);
     background-repeat: no-repeat;
     width: 130px;
-    height: 130px;
+    height: 48px;
     display: inline-block;
 }
 
-.footer-logo {
-    background-image: url(rs_school_js.svg);
-    background-repeat: no-repeat;
+.footer-logo a:hover {
+    transition: 0.9s;
+    transform: scale(1.1)
 }
