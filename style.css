@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    margin: 0 100px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Comfortaa, Roboto, sans-serif;
+    background-color: #3c2e55;
+    align-items:stretch;
+}
+
+.my-life {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    padding: 70px 70px 0;
+    flex-direction: column;
+    box-sizing: border-box;    
+}
+
+.main-block {
+    max-width: 800px;
+    width: 100%;
+    background-color: #867d96;
+    padding: 150px 100px 0 100px;
+}
+
+.introduce, .about-me {
+    margin-bottom: 100px;
+}
+
+.education {
+    color: #f0f8ff;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.job-story {
+    color: #f0f8ff;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.job-story td {
+    padding: 10px 20px;
+}
+
+.example-of-code {
+    margin-bottom: 100px;
+}
+
+.avatar {
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #f0f8ff;
+    font-size: 50px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #f0f8ff;
+    font-size: 30px;
+}
+
+p {
+    color: #f0f8ff;
+    font-size: 20px;
+}
+
+.contacts ul {
+    color:#f0f8ff;
+    font-size: 20px;
+    margin-bottom: 90px;
+    padding: 0;
+}
+
+.contacts ul li {
+    padding: 10px 0;
+    list-style: none;
+}
+
+a {
+    color:#f0f8ff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+a:hover {
+    color:#aeb4b9;
+}
+
+.skills {
+    color:#f0f8ff;
+    font-size: 30px;
+}
+code {
+    color:#f0f8ff;
+    font-size: 20px;
+    margin: 0;
+}
+
+.code {
+    max-width: 600px;
+    width: 100%;
+    background-color:#afa9b9;
+}
+
+.projects {
+    margin-bottom: 100px;
+}
+
+.english {
+    margin-bottom: 100px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 0 70px;
+    padding: 10px 0;
+    align-items: center;
+}
+
+.footer li {
+    list-style: none;
+    color:aliceblue;
+    font-size: 20px;
+
+}
+
+.footer-logo a {
+    background-image: url(assets/icons/rs_school_js.svg);
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 48px;
+    display: inline-block;
+}
+
+.footer-logo a:hover {
+    transform: scale(1.1)
+}
